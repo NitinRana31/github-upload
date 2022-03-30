@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Before and After Selectors</title>
+<style>
+    body{
+        background-color: black;
+        color: white;
+      
+    }
+
+
+    header::before{
+   content: "";
+   background: url(https://imgs.search.brave.com/c8axENOMPbJf527uPz2vY82Wg1PmE2SCYfZvtPKVkJ0/rs:fit:1080:720:1/g:ce/aHR0cHM6Ly9pbWFn/ZXMudW5zcGxhc2gu/Y29tL3Bob3RvLTE1/MDcxMTk5NDk0NTQt/NTM1NjhlZGQwNzVj/P2l4bGliPXJiLTEu/Mi4xJnE9ODAmZm09/anBnJmNyb3A9ZW50/cm9weSZjcz10aW55/c3JnYiZ3PTEwODAm/Zml0PW1heCZpeGlk/PWV5SmhjSEJmYVdR/aU9qRXlNRGQ5) no-repeat center center/cover;
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   z-index: -1;
+   opacity: 0.5;
+
+  }
+section{
+
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-top: 20px;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-style: oblique;
+}
+section ::before{
+
+}
+
+
+    .navigation{
+  display: flex;
+  text
+    }
+
+    .item{
+        padding: 34px 23px;
+        
+        
+    }
+     li{
+         list-style: none;
+         font-style: italic;
+         font-size: medium;
+     }
+section>header{
+
+}
+
+</style>
+
+</head>
+
+
+<body>
+<header>
+
+<nav class="navbar">
+<ul class="navigation">
+
+<li class="item">Home</li>
+<li class="item">About</li>
+<li class="item">Services</li>
+<li class="item">Contact</li>
+</ul>
+</nav>
+
+</header>
+
+<section>Welcome to the Living World
+
+<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati dolorem explicabo sed nesciunt aut nisi optio illo et dolor numquam inventore dolore eum cupiditate quas voluptatem rerum quaerat, odit fuga! Libero expedita odio nisi!</p>
+
+</section>
+
+
+
+
+    
+
+
+</body>
+</html>
